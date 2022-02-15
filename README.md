@@ -15,7 +15,7 @@
 This CLI application is a small game written in PHP and is installed using [Composer](https://getcomposer.org):
 
 ```
-composer require ajaykumar/php-cli-demo
+composer global require ajaykumar/php-cli-demo
 ```
 
 Make sure the `~/.composer/vendor/bin` directory is in your system's `PATH`.
