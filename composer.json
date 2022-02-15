@@ -1,0 +1,24 @@
+{
+    "name": "ajaykumar/php-cli-demo",
+    "description": "PHP Command line demo tool",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ajaykumar\\PhpCliDemo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ajay Kumar M",
+            "email": "ajay.kumar@phases.dk"
+        }
+    ],
+    "require": {
+        "php" : "^7.4",
+        "symfony/console": "^5.0|^6.0"
+    },
+    "bin": [
+        "bin/demo"
+    ]
+}
